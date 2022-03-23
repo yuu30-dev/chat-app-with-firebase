@@ -1,5 +1,6 @@
-import SignIn from '../components/SignIn';
+import ChatRoom from '~/components/ChatRoom';
+import SignIn from '~/components/SignIn';
 
 export default function Home() {
-  return <SignIn />;
+  return true ? <ChatRoom /> : <SignIn />;
 }
